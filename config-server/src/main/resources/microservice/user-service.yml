@@ -1,5 +1,5 @@
 server:
-  port: 8501
+  port: 8502
 
 eureka:
   client:
@@ -10,7 +10,7 @@ eureka:
 
 spring:
   application:
-    name: post-service
+    name: user-service
   jpa:
     properties:
       javax:

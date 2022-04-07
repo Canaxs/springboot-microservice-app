@@ -1,0 +1,8 @@
+server:
+  application:
+    name: eureka-server
+
+  cloud:
+    config:
+      profile:
+        uri: http://localhost:8888
