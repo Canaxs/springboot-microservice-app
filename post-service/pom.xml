@@ -10,11 +10,11 @@
         <relativePath>../service-parent/pom.xml</relativePath>
     </parent>
 
-    <groupId>com.haydikodlayalim</groupId>
-    <artifactId>account-service</artifactId>
+    <groupId>com.microservice</groupId>
+    <artifactId>post-service</artifactId>
     <version>10.0.1</version>
-    <name>account-service</name>
-    <description>Account Service </description>
+    <name>Post-Service</name>
+    <description>Post Service </description>
 
     <dependencies>
 
