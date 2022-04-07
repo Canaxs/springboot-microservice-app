@@ -5,10 +5,12 @@ import com.microservice.postservice.dto.PostDto;
 import com.microservice.postservice.model.Post;
 import com.microservice.postservice.repository.PostRepository;
 import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
 @RequiredArgsConstructor
+@Service
 public class PostServiceImpl implements PostService{
 
     private final PostRepository postRepository;

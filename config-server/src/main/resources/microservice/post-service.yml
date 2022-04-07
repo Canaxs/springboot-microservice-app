@@ -1,0 +1,20 @@
+server:
+  port: 8501
+
+
+spring:
+  application:
+    name: post-service
+  jpa:
+    properties:
+      javax:
+        persistence:
+          validation:
+            mode: none
+    hibernate:
+      ddl-auto: create-drop
+  datasource:
+    url: jdbc:mysql://localhost:3306/microservice
+    username: root
+    password: root
+    driverClassName: com.mysql.cj.jdbc.Driver

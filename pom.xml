@@ -24,6 +24,7 @@
         <module>post-service</module>
         <module>service-parent</module>
         <module>config-server</module>
+        <module>user-service</module>
     </modules>
 
     <dependencyManagement>
