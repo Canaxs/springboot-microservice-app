@@ -1,26 +1,20 @@
 server:
   port: 8502
 
+spring:
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/microservice?serverTimezone=UTC
+    username: root
+    password: root
+  jpa:
+    hibernate.ddl-auto: update
+  application:
+    name: user-service
+
 eureka:
   client:
     instance:
       hostname: localhost
     serviceUrl:
       defaultZone: http://localhost:8500/eureka/
-
-spring:
-  application:
-    name: user-service
-  jpa:
-    properties:
-      javax:
-        persistence:
-          validation:
-            mode: none
-    hibernate:
-      ddl-auto: update
-  datasource:
-    url: jdbc:mysql://localhost:3306/microservice
-    username: root
-    password: root
-    driverClassName: com.mysql.cj.jdbc.Driver

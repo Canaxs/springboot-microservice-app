@@ -9,6 +9,10 @@
         <version>10.0.1</version>
     </parent>
 
+    <properties>
+        <java.version>1.8</java.version>
+    </properties>
+
     <groupId>com.microservice</groupId>
     <artifactId>eureka-server</artifactId>
     <version>10.0.1</version>
@@ -28,10 +32,6 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
             <version>2.2.0.RELEASE</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-autoconfigure</artifactId>
         </dependency>
         <dependency>
             <groupId>org.glassfish.jaxb</groupId>
