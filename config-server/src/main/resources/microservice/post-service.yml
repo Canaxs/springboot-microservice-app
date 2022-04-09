@@ -18,3 +18,8 @@ eureka:
       hostname: localhost
     serviceUrl:
       defaultZone: http://localhost:8500/eureka/
+
+service:
+  security:
+    username: deneme
+    password: deneme
