@@ -13,8 +13,12 @@
 
     <version>10.0.1</version>
     <groupId>com.microservice</groupId>
-    <name>User-Service</name>
     <artifactId>user-service</artifactId>
+    <name>User-Service</name>
+
+    <properties>
+        <java.version>1.8</java.version>
+    </properties>
 
     <dependencies>
 
@@ -39,6 +43,11 @@
                     <artifactId>junit-vintage-engine</artifactId>
                 </exclusion>
             </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <scope>runtime</scope>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
